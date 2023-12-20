@@ -15,7 +15,7 @@ No installation necessary!
     -begin with entering youre desired amount of chracters for password.
     -complete additional questions to specify the parameters of password.
 
-![Alt text](https://github.com/kalleepar/password-generator/blob/main/Develop/images/password-generator-sample.jpg)
+![Alt text](images/thecodequizsample.jpg)
 ![Alt text](https://github.com/kalleepar/password-generator/blob/main/Develop/images/password-generator-sample2.jpg)
 
 ## Link to website!
