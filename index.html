@@ -1,34 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <title>The Coding Quiz</title>
-  <link rel="stylesheet" type="text/css" href="./assets/css/jass.css">
-  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <header> <p> The Code Quiz </p></header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Code Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
 </head>
+<body>
+    <div class="container">
 
-<body class="bg-dark text-light">
-  <main id="root">
-    <h1 class="text-center pb-5">QUIZ</h1>
-  <!-- Added link to the jQuery library -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-  <script type="text/javascript" src="./assets/js/script.js"></script>
+        <div id="startpage">
+            <h2>Press start to play</h2>
+            <h2>Press High Scores to view high scores</h2>
+        <button id="startbtn">Start</button>
+        <button id="startPageHighscore" onclick="showHighscore()">High Scores</button>
+        </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<section class="content container-fluid" id="quiz">
-  <button class="btn btn-primary" id="next">Next</button>
-  <button class="btn btn-info" id="prev">Prev</button>
-  <button class="btn btn-default" id="start">Start Over</button> //checkboxes inputs for the final results
-  <ul id="result-input" class="hide-input">
-    <li><input type="checkbox" name="answer" value="0">1</li>
-    <li><input type="checkbox" name="answer" value="1">2</li>
-    <li><input type="checkbox" name="answer" value="2">3</li>
-    <li><input type="checkbox" name="answer" value="3">4</li>
-    <li><input type="checkbox" name="answer" value="4">5</li>
-    <li><input type="checkbox" name="answer" value="5">6</li>
-  </ul>
-</section>
+        <div id="quiz">
+            <div id="timer">Time left: </div>
+                <div id="questions"><p>Questions Placeholder</p></div>
+                    <button id="a" onclick="checkAnswer('a')">A</button>
+                    <button id="b" onclick="checkAnswer('b')">B</button>
+                    <button id="c" onclick="checkAnswer('c')">C</button>
+                    <button id="d" onclick="checkAnswer('d')">D</button>
+                <div id="result"></div>
+        </div>
+        <div id="gameover">
+
+            <div id="finalScore"></div>
+            <input type="text" size = "40" placeholder="Enter you initials for high score" name="intials" id="initials"/>
+            <button id="submitScore">Submit Score</button>
+        </div>
+        <div id=highscoreContainer>
+        <div id="high-scorePage">
+            <div id="highscore-header">
+                <h3>User Initials</h3>
+                <h3>Score</h3>
+            </div>
+            <div id = "highscore-initials"></div>
+            <div id = "highscore-score"></div>
+        </div>
+        <div id="endGameBtns">
+            <button id="playAgain" onclick="replayQuiz()">Play Again</button>
+            <button id="clearHighscore" onclick="clearScore()">Clear Highscores</button>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
