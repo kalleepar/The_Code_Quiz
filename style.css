@@ -61,7 +61,7 @@
     
     #timer{
         font-family: sans-serif;
-        background-color: #5a69f0;
+        background-color: #9600DB;
         color: #eeeeee;
         font-size: x-large;
         text-shadow: .5px .5px black;
@@ -102,7 +102,7 @@
         justify-content: space-around;
         border-bottom-style: outset;
         margin-bottom: .5rem;
-        background-color: #5e6df1;
+        background-color: #63317A;
         color: #eeeeee;
         font-family: sans-serif;
     }
@@ -146,6 +146,6 @@
     }
 
     header{
-        color:#5e6df1;
+        color:#3A2842;
         font-family:fantasy;
     }

@@ -46,32 +46,32 @@ var quizQuestions = [{
     choiceD: "3",
     correctAnswer: "b"},
     {
-    question: "d?",
-    choiceA: "a",
-    choiceB: "b",
-    choiceC: "c",
-    choiceD: "d",
+    question: "A boolean is?",
+    choiceA: "A number",
+    choiceB: "A special character",
+    choiceC: "Has no value",
+    choiceD: "True or false value",
     correctAnswer: "d"},
     {
-    question: "a?",
-    choiceA: "a",
-    choiceB: "b",
-    choiceC: "c",
-    choiceD: "d",
-    correctAnswer: "a"},  
+    question: "What does Nav a{ target?",
+    choiceA: "Even list numbers",
+    choiceB: "All",
+    choiceC: "Anchor tag",
+    choiceD: "Odd list numbers",
+    correctAnswer: "c"},  
     {
-    question: "c?",
-    choiceA: "a",
-    choiceB: "b",
-    choiceC: "c",
-    choiceD: "d",
-    correctAnswer: "c"},
+    question: "What does an else if statement do?",
+    choiceA: "Allows you to test more than one condition",
+    choiceB: "Tests a single condition",
+    choiceC: "Reverts a single condition",
+    choiceD: "Disables both conditions",
+    correctAnswer: "a"},
     {
-    question: "b?",
-    choiceA: "a",
-    choiceB: "b",
-    choiceC: "c",
-    choiceD: "d",
+    question: "What does || do?",
+    choiceA: "Evaluates to zero",
+    choiceB: "Evaluates to true if expression 1 or 2 is true",
+    choiceC: "Evaluates to true if both expressions are true",
+    choiceD: "Evaluates to true if both expressions are false",
     correctAnswer: "b"},
         
     
@@ -220,3 +220,4 @@ function checkAnswer(answer){
     }
 }
 
+// subtract time
