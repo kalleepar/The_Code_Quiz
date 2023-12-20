@@ -2,7 +2,9 @@
 
 ## Description
 
-This program was developed to create a random password using a combination of upper-case, lower-case, number and special characters.
+This program was developed to quiz knowledge of HTML, CSS, and Javascript.
+The program will log score and time and will allow you to log your 
+initials upon completion of the quiz.
 
 
 ## Installation
@@ -12,14 +14,16 @@ No installation necessary!
 ## Usage
 
     To use the application:
-    -begin with entering youre desired amount of chracters for password.
-    -complete additional questions to specify the parameters of password.
+    -Press the start button
+    -Complete a selection of questions
+    -Log your highscore with your initials
+
 
 ![Alt text](images/thecodequizsample.jpg)
-![Alt text](https://github.com/kalleepar/password-generator/blob/main/Develop/images/password-generator-sample2.jpg)
+![Alt text](images/thecodequizsample2.jpg)
 
 ## Link to website!
-https://kalleepar.github.io/password-generator/
+https://kalleepar.github.io/The_Code_Quiz/
 
 ## Credits
 
